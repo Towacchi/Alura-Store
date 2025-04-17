@@ -6,9 +6,9 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Sobre
 
-Este projeto de análise de dados foi desenvolvido como parte de um **desafio de Data Science**, com o objetivo de analisar o desempenho de 4 lojas e recomendar **qual loja o Senhor João deve vender** com base em critérios como faturamento, satisfação de clientes, logística e popularidade dos produtos.
+Este projeto de análise de dados foi desenvolvido como parte de um **desafio da formação Data Science da Alura**, com o objetivo de analisar o desempenho de 4 lojas e recomendar **qual loja possui o menor desempenho, e deve ser vendida** com base em critérios como faturamento, satisfação de clientes, logística, valor do frete, e popularidade dos produtos.
 
 ---
 
@@ -19,7 +19,7 @@ Este projeto de análise de dados foi desenvolvido como parte de um **desafio de
 - `Matplotlib` - Visualização gráfica
 - `Seaborn` - Gráficos estatísticos avançados
 - `Folium` - Geração de mapas interativos
-- `Plotly` - Gráficos dinâmicos (opcional)
+- `Plotly` - Gráficos dinâmicos 
 
 ---
 
@@ -27,7 +27,7 @@ Este projeto de análise de dados foi desenvolvido como parte de um **desafio de
 
 ### 1. 📦 Faturamento Total por Loja
 - Soma dos valores da coluna **Preço** para estimar o desempenho financeiro.
-- Gráfico de barras estilizado para facilitar a comparação.
+- Gráfico de **barras** estilizado para facilitar a comparação.
 
 ### 2. 🧮 Categorias Mais Vendidas
 - Agrupamento por **Categoria do Produto**.
@@ -35,35 +35,19 @@ Este projeto de análise de dados foi desenvolvido como parte de um **desafio de
 
 ### 3. ⭐ Avaliações Médias
 - Análise da coluna **Avaliação da compra**.
-- Gráfico de **circular (pie chart)** para representar visualmente.
+- Gráfico de **pontos** para representar visualmente.
 
 ### 4. 🔝 Produtos Mais e Menos Vendidos
 - Contagem de frequência dos produtos por loja.
-- Gráfico de **boxplot estilizado** para representar a variação.
+- Gráfico de **violino** para representar a variação.
 
 ### 5. 🚚 Frete Médio
 - Cálculo da média da coluna **Frete** por loja.
-- Representação com **gráfico de linha suave (lineplot)**.
+- Representação com **linhas**.
 
 ### 6. 🗺️ Análise Geográfica
 - Uso de **Latitude e Longitude** para mapear as compras.
 - Gráfico de **dispersão por loja** para visualização de distribuição regional.
-
----
-
-## ✅ Conclusão e Recomendação Final
-
-Após uma análise detalhada dos dados de vendas, frete, avaliações e distribuição geográfica, foi recomendado que o **Senhor João venda a loja 3, por possuir menor desempenho**.
-
-### 🧾 Justificativa:
-
-- 📉 **Menor faturamento** entre as quatro lojas.
-- ⭐ **Avaliações mais baixas** dos clientes.
-- 🚚 **Frete médio mais alto**, indicando possíveis gargalos logísticos.
-- 🧊 **Baixa variedade e venda por categoria**.
-- 🗺️ **Distribuição geográfica menos abrangente**.
-
-Esses fatores combinados indicam que essa loja tem menos potencial de crescimento e pode representar um custo de oportunidade maior.
 
 ---
 
